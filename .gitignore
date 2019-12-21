@@ -1,1 +1,6 @@
-passwords.txt
+chat.txt
+active_users.txt
+.htpasswd
+admin/.htpasswd
+upload/*
+html/*

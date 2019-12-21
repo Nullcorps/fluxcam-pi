@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Fluxcam Pi login"
+AuthUserFile /home/pi/www/fluxcam-pi/.htpasswd
+Require valid-user

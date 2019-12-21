@@ -1,0 +1,55 @@
+BODY
+{ font: 16px normal verdana, arial, sans-serif; background: #777777; }
+
+.inner-border::-webkit-scrollbar 
+{ display: none; }
+
+
+.user
+{ color: blue; font-weight: bold; }
+
+.message
+{ color: black; font-weight: normal; }
+
+#video_container
+{ background-color: #000000; }
+
+#controls_container
+{ font-size: 24px; background-color: #cccccc; }
+
+#messages
+{ padding: 8px; font-size: 24px; background-color: #ffffff; }
+
+#userlist
+{ background-color: #ffffff; padding: 8px; }
+
+#chat_input
+{ font-size: 24px; border: 2px solid #777777; padding: 8px; }
+
+#status
+{ font-size: 16px; padding-top: 4px; color: #ffffff;  text-align: center; padding-bottom: 4px; }
+
+#halp
+{
+width: 400px;
+height: 500px; 
+position: absolute;
+top: 50%;
+left: 50%;
+margin-left: -200px; 
+margin-top: -250px;
+background-color: #ffffcc; 
+z-index: 100;
+padding: 12px;
+border: 2px dotted black;
+font-size: 22px;
+display: none; 
+line-height: 150%;
+}
+
+
+.normal_button
+{ font-size: 30px;}
+
+.normal_textfield
+{ font-size: 30px; }
