@@ -2,7 +2,7 @@
 This is a super basic, free, privacy-focussed camming/chat setup for raspberry pi using RPi camera. Should work on all devices: pc/mac/tablet/phone
 
 # Intro:
-Whilst camgirls mostly chat on paid sites where calls are charger per minute, there are also free sites which let you host a room and chat people without the pay-per-minute thing. The problem with both of these setups is that you're always on someone else's platform, always monitored and always subject to their rules and terms-of-service.
+Whilst camgirls mostly chat on paid sites where calls are charged per minute, there are also free sites which let you host a room and chat people without the pay-per-minute thing. The problem with both of these setups is that you're always on someone else's platform, always monitored and always subject to their rules and terms-of-service.
 
 I'm a Domme and camgirl - I have several face-to-face clients who I session with in person regularly, and they're my focus rather than pay-per-min camming. In between face-to-face sessions sometimes I like to chat with those clients (or other kinky friends), but without a pay-per-minute setup and also perhaps with a bit more privacy.
 
