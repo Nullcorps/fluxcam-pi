@@ -1,7 +1,7 @@
 # fluxcam-pi
 This is a super basic, free, privacy-focussed camming/chat setup for raspberry pi using RPi camera. Should work on all devices: pc/mac/tablet/phone
 
-Intro:
+# Intro:
 Whilst camgirls mostly chat on paid sites where calls are charger per minute, there are also free sites which let you host a room and chat people without the pay-per-minute thing. The problem with both of these setups is that you're always on someone else's platform, always monitored and always subject to their rules and terms-of-service.
 
 I'm a Domme and camgirl - I have several face-to-face clients who I session with in person regularly, and they're my focus rather than pay-per-min camming. In between face-to-face sessions sometimes I like to chat with those clients (or other kinky friends), but without a pay-per-minute setup and also perhaps with a bit more privacy.
@@ -30,7 +30,7 @@ I wrote this primarily because I needed something like this myself. Signal chats
 I've actually been using this setup for a while now and it actually works surprisingly well. I've since added a shared file upload facility so that users can share kinky pics. The interface is deliberately very customisable so that you can adjust the layout to suit the device you're on (e.g. even on a smartphone, adjust the layout so that you can leave the on-screen keyboard up, but still see the video) and simple enough that it can be operated whilst visually or otherwise impaired.
 
 
-THE FUTURE:
+# THE FUTURE:
 Currently it's a one-to-many setup, so only the host can send video (and there's no sound currently either, though one could add an icecast2 server if needed - I prefer typing though). My hope is that if another person (or more) had a similar setup perhaps there could be 2-way (or more) communication. Perhaps there could even be some sort of self-discovering protocol so it works a bit like Bittorrent and you end up with a totally decentralised, serverless, uncensorable peer-to-peer camming network. Tbh achieving that is a bit beyond my skills at this point but it's something nice to aim for ;)
 
 It might even be possible to link something like an electrum wallet to the back end, throw up QR-codes and then have a sort of "x satoshis for 5 mins" type thing, where access is granted as soon as the payment is seen on the Bitcoin network...but again, waay into the future there.
@@ -40,3 +40,20 @@ I'm pretty new to Github etc so please excuse that this project is likely a mess
 
 
 Any questions or whatever please do leave a message, comment or however the hell it works on here.
+
+
+# Features:
+- all free
+- everything encrypted (uses SSL certs from LetsEncrypt)
+- based on RPi-Cam-Web-Interface and works with the raspberry pi camera (other webcams are too cpu-heavy)
+- no databases or logs (just uses textfiles which can be nuked at the end of a session)
+- no second server required for video feed
+- self hosted (uses Cloudflare's free tier to somewhat obscure your home IP)
+- allows file upload/sharing to chat members
+- allows very high quality video feed
+- allows users to choose framerate which best suits them
+- allows users to customise the interface to suit their device and level of impairment
+- user "accounts" are basically basic-authentication users managed via .htaccess and .htpasswd
+- has a super basic admin back-end to allow creating/managing new user accounts
+
+
