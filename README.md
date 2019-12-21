@@ -29,6 +29,9 @@ I wrote this primarily because I needed something like this myself. Signal chats
 
 I've actually been using this setup for a while now and it actually works surprisingly well. I've since added a shared file upload facility so that users can share kinky pics. The interface is deliberately very customisable so that you can adjust the layout to suit the device you're on (e.g. even on a smartphone, adjust the layout so that you can leave the on-screen keyboard up, but still see the video) and simple enough that it can be operated whilst visually or otherwise impaired.
 
+# Requirements:
+A raspberry pi of some sort and the matching RPi-camera. Normal webcams are waay too cpu-heavy and don't work in the same way so there's really no way around that. The RPi camera gives excellent quality for very little cpu overhead.
+
 
 # THE FUTURE:
 Currently it's a one-to-many setup, so only the host can send video (and there's no sound currently either, though one could add an icecast2 server if needed - I prefer typing though). My hope is that if another person (or more) had a similar setup perhaps there could be 2-way (or more) communication. Perhaps there could even be some sort of self-discovering protocol so it works a bit like Bittorrent and you end up with a totally decentralised, serverless, uncensorable peer-to-peer camming network. Tbh achieving that is a bit beyond my skills at this point but it's something nice to aim for ;)
