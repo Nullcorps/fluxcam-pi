@@ -6,7 +6,7 @@ This is a super basic, free, privacy-focussed camming/chat setup for raspberry p
 # Intro:
 Whilst camgirls mostly chat on paid sites where calls are charged per minute, there are also free sites which let you host a room and chat people without the pay-per-minute thing. The problem with both of these setups is that you're always on someone else's platform, always monitored and always subject to their rules and terms-of-service.
 
-I'm a Domme and camgirl - I have several face-to-face clients who I session with in person regularly, and they're my focus rather than pay-per-min camming. In between face-to-face sessions sometimes I like to chat with those clients (or other kinky friends), but without a pay-per-minute setup and also perhaps with a bit more privacy.
+I'm a Domme and camgirl - I have face-to-face clients who I session with in person regularly, and they're my focus rather than pay-per-min camming. In between face-to-face sessions sometimes I like to chat with those clients (or other kinky friends), but without a pay-per-minute setup and also perhaps with a bit more privacy.
 
 Especially if you're into some more kinky stuff or have clients where discretion is particularly important, you maybe don't want to be pushing that content through a third party system, nor do you want your conversations logged.
 
