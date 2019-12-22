@@ -29,7 +29,7 @@ The camera part of this uses the excellent https://elinux.org/RPi-Cam-Web-Interf
 
 I wrote this primarily because I needed something like this myself. Signal chats are fine but the video sucks and you can't type while the video is open. Skype is well...skype...and whilst I've seen self-hosted camming things in the past they tended to be either loaded with spyware, restricted or just rubbish, nevermind encrypted/SSL. There was no decent, free open-source system, and this hopefully addresses that. 
 
-I've actually been using this setup for a while now and it actually works surprisingly well. I've since added a shared file upload facility so that users can share pics/files. The interface is deliberately very customisable so that you can adjust the layout to suit the device you're on (e.g. even on a smartphone, adjust the layout so that you can leave the on-screen keyboard up, but still see the video) and simple enough that it can be operated whilst visually or otherwise impaired.
+I've been using this setup for a while now and it actually works surprisingly well. I've since added a shared file upload facility so that users can share pics/files. The interface is deliberately very customisable so that you can adjust the layout to suit the device you're on (e.g. even on a smartphone, adjust the layout so that you can leave the on-screen keyboard up, but still see the video) and simple enough that it can be operated whilst visually or otherwise impaired.
 
 # Requirements:
 A raspberry pi of some sort and the matching RPi-camera. Normal webcams are waay too cpu-heavy and don't work in the same way so there's really no way around that. The RPi camera gives excellent quality for very little cpu overhead.
