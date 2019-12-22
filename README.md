@@ -6,7 +6,7 @@ Whilst camgirls mostly chat on paid sites where calls are charged per minute, th
 
 I'm a Domme and camgirl - I have several face-to-face clients who I session with in person regularly, and they're my focus rather than pay-per-min camming. In between face-to-face sessions sometimes I like to chat with those clients (or other kinky friends), but without a pay-per-minute setup and also perhaps with a bit more privacy.
 
-Especially if you're into some more kinky stuff, you maybe don't want to be pushing that content through a third party system, nor do you want your conversations logged.
+Especially if you're into some more kinky stuff or have clients where discretion is particularly important, you maybe don't want to be pushing that content through a third party system, nor do you want your conversations logged.
 
 I envisaged a system which runs on a Pi, is self-hosted has *everything* (both the video and the chat) encrypted, keeps no logs and is free. It should be as simple and lightweight as possible and as secure as possible.
 
