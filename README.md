@@ -1,6 +1,8 @@
 # fluxcam-pi
 This is a super basic, free, privacy-focussed camming/chat setup for raspberry pi using RPi camera. Should work on all devices: pc/mac/tablet/phone
 
+**PLEASE NOTE: I've only just shoved this up onto github, it's not yet anywhere near ready for simple deployment yet, don't expect to just clone and it to work. This is very much early days/WIP**
+
 # Intro:
 Whilst camgirls mostly chat on paid sites where calls are charged per minute, there are also free sites which let you host a room and chat people without the pay-per-minute thing. The problem with both of these setups is that you're always on someone else's platform, always monitored and always subject to their rules and terms-of-service.
 
