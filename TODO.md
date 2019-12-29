@@ -1,6 +1,10 @@
 
 # stuff to do (probably)
 
+* add an image preview which doesn't open new tabs, confuses the fuck out of everyone
+
+* page handling once server is switched off not so graceful. Improve
+
 * add a "remove user" bit to the admin panel
 
 * some way of locking a session down so no new users can join? (private/exclusive session)
