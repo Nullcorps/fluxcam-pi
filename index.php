@@ -23,7 +23,7 @@ Files:<br>
 </div>
 
 <div id=halp style=" ">
-<li>Set your nickname and then click "set ID" to begin chatting</li>
+<li>Set your nickname (bottom left) and then click "set ID" to begin chatting</li>
 <li>You can pause the chat if you need to scroll up and copy/paste something</li>
 <li>Double click on the video to fill the browser</li>
 <li>If you get red lots of flashing borders around the video that means it's dropping frames, try a lower FPS for smoother video</li>
