@@ -50,13 +50,26 @@ Loading messages...
 <input class=normal_textfield type=text id=userid size=1><input class=normal_button type=button value="Set" onclick="setuserid()" title="Set your chosen user id">
 
 <select id=fpschooser class=normal_textfield onchange="dofps()" title="change the video framerate">
+   <option value="1">1fps</option>
    <option value="2">2fps</option>
    <option value="3">3fps</option>
+   <option value="4">4fps</option>
    <option value="5" selected>5fps</option>
+   <option value="6">6fps</option>
    <option value="7">7fps</option>
+   <option value="8">8fps</option>
+   <option value="9">9fps</option>
    <option value="10">10fps</option>
+   <option value="11">11fps</option>
    <option value="12">12fps</option>
+   <option value="13">13fps</option>
+   <option value="14">14fps</option>
    <option value="15">15fps</option>
+   <option value="16">16fps</option>
+   <option value="17">17fps</option>
+   <option value="18">18fps</option>
+   <option value="18">18fps</option>
+   <option value="19">19fps</option>
    <option value="20">20fps</option>
    <option value="25">25fps</option>
 </select>
@@ -132,8 +145,14 @@ if(isset($_FILES['image']))
 <!-- <input type=button value="test" onclick="sendcmd()">-->
 <div id=command style="display: none"></div>
 
-
-
+<!--
+<center>
+<audio controls autoplay src="http://92.62.7.32:8000/flux.mp3">
+Your browser does not support the
+<code>audio</code> element.
+</audio>
+</center>
+-->
 
 
 <script language=javascript>
@@ -186,7 +205,8 @@ var videosize = getCookie('videosize');
 if (videosize !== '' && videosize !== null)
    { document.getElementById('campic').style.width = videosize; }
 
-   
+
+ 
 var chatsize = getCookie('chatsize');
 if (chatsize !== '' && chatsize !== null)
    {
@@ -481,6 +501,7 @@ function togglefullscreen()
       document.getElementById('messages_container').style.display = 'block';
       document.getElementById('controls_container').style.display = 'block';
       document.getElementById('status').style.display = 'block';
+      //alert(videosize);
       document.getElementById('campic').style.width = videosize;
       fullscreen=false;
       statusupdate('exited full screen');
@@ -675,6 +696,10 @@ function send_cmd (cmd) {
 
    
 </script>
+
+
+
+
 
 </body>
 </html>
